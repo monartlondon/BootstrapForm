@@ -1,0 +1,32 @@
+body{
+    /* fallback for old browsers */
+    background: #C6FFDD;  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); 
+}
+
+main>.container {
+    padding: 60px 15px 0;
+}
+
+hr{
+    color: white;
+}
+
+.address{
+    font-size: .8rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .address{
+        font-size: 1rem;
+    }
+}
+
+@media print {
+    .address{
+        font-size: 1rem;
+    }
+}
